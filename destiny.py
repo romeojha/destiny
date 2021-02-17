@@ -18,8 +18,8 @@ print(''' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 if play == 'play':
     print("Rules/process\n 1.you must avoid hash and look map to find the way out\n 2.you only have one half of map to guide you\n 3.you will get real world rewards if you reach your destiny\n 4.each travel takes one day")
-    enter = input('are you sure want to enter?(y/n)\n')
-    if enter == 'y':
+    male_female = input("enter :'male'\n")
+    if male_female == 'male':
         print('''
                             ___/""\     
                                oo##
@@ -99,11 +99,8 @@ __|          ;     |MM"MM"""""---..._______...--""MM"MM]                   |
         _ -__--__--_ -              |:     ::.        
           - _--__- _                |/       ::.      
            _ --__ -                 /'         :`--.__
-            _ -_ -                 /'   ._ .     ``   
-             --__              _,-'   __/. .... .  .  
-              -_         __,--/'   __/##`-._____,----'
-      .--.
-    _/____\_              
+      .--.  _ -_ -                 /'   ._ .     ``   
+    _/____\_               _,-'   __/. .... .  .      _              
       |OO|
       |()|
  .----\""/----.
@@ -155,9 +152,9 @@ __|          ;     |MM"MM"""""---..._______...--""MM"MM]                   |
          \:\   '.':. \#//\\
           ':|    "--'(#///)
                      (#///)
-                     (#///)         ___/""\     
-                      \#///\           oo##
-                      (##///)         `-6 #
+                     (#///)            /""\     
+                      \#///\           #oo#
+                      (##///)          \__/
                       (##///)          ,'`.
                       (##///)         // `\\
                       (##///)        ||o   \\
